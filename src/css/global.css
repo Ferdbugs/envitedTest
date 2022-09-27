@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-r from-[#8456EC] to-[#E87BF8] text-white;
+  }
+}
